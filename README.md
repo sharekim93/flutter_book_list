@@ -1,16 +1,27 @@
 # flutter_book_list
 
-A new Flutter project.
+간단한 도서 목록 앱입니다.
 
-## Getting Started
+## 목적
 
-This project is a starting point for a Flutter application.
+Flutter로 간단한 도서목록 앱을 만듦으로써 UI 구현 및 화면전환 등 기초를 학습한다.
 
-A few resources to get you started if this is your first Flutter project:
+## 목표
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. 화면
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   1. ListScreen(목록화면)
+   2. DetailScreen(상세화면)
+
+2. 기능
+
+   1. (UI) 도서목록
+   2. (UI) 도서상세
+   3. 도서목록에서 도서를 선택하면 해당 도서 상세화면으로 이동
+
+3. 모델
+   1. Book
+      1. title : 제목
+      2. subtitle : 부제
+      3. description : 설명
+      4. image : 대표 이미지
